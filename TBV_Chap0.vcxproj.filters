@@ -19,6 +19,9 @@
     <Filter Include="src\utilities">
       <UniqueIdentifier>{97eff834-30ff-4403-b7ed-e55f9e00fc01}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\inputs">
+      <UniqueIdentifier>{2ba2de72-d3ca-4fc7-b9d4-7f20fdff8ac4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -31,6 +34,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,6 +52,15 @@
     </ClInclude>
     <ClInclude Include="console.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>src\inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="keys.h">
+      <Filter>src\inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>src\inputs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
